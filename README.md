@@ -20,13 +20,13 @@ To view the result, please clone or download this repository and follow the comm
 3. Now we compile and run the compiled executable. The project consists of three scenes. 
 
   To render the first scene, enter:
-  $ make; /assignment4 ../data/scene1.json
+  $ make; ./assignment4 ../data/scene1.json
 
   To render the second scene, enter:
-  $ make; /assignment4 ../data/scene2.json
+  $ make; ./assignment4 ../data/scene2.json
 
   To render the third scene, enter:
-  $ make; /assignment4 ../data/scene3.json
+  $ make; ./assignment4 ../data/scene3.json
 
 
 
