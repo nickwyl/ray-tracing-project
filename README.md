@@ -1,5 +1,17 @@
 # ray-tracing-project
 
+This program attempts to simulate differing ways of perception. It presents three scenes, each of which highlights a form of perception.
+
+Scene 1 consists of a bunny, elephant, table, and the cap of a circle (a very large one, to simulate the curvature of the ground). I used Perlin Noise to simulate the marble texture on the tabletop and to simulate grass and snow on the ground. I was able to scale, translate (through matrix transformations), and change the colors of each mesh object individually. Shadows are also implemented.
+
+Scene 2 includes a sphere in addition to the mesh objects from Scene 1. This view is rendered by pointing the camera at the sphere, which reflects the objects. 
+
+Scene 3 presents a monk (bottom left section of orb) in addition to the mesh objects from Scene 2. The monk has a sacred object near his head, and is facing the table, so we see the back of his head and shoulders. In addition to making the sphere reflective, I tried to implement Lambertian BRDF in order to make the orb glossier. 
+
+
+
+
+To view the result, please clone or download this repository and follow the commands:
 
 1. Navigate to the proj directory and create a directory called build:
   $ cd proj; mkdir build
