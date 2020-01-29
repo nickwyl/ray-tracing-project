@@ -2,7 +2,7 @@
 
 This program attempts to simulate differing ways of perception. It presents three scenes, each of which highlights a form of perception.
 
-![Scene 1](https://github.com/nickwyl/ray-tracing-project/blob/master/results/raytrace1.png)
+!(https://github.com/nickwyl/ray-tracing-project/blob/master/results/raytrace1.png)
 
 Scene 1 consists of a bunny, elephant, table, and the cap of a circle (a very large one, to simulate the curvature of the ground). I used Perlin Noise to simulate the marble texture on the tabletop and to simulate grass and snow on the ground. I was able to scale, translate (through matrix transformations), and change the colors of each mesh object individually. Shadows are also implemented.
 
